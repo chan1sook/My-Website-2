@@ -12,7 +12,6 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/vue-fontawesome": "^3.0.8",
-    "@nuxt/image": "^1.7.0",
     "@nuxtjs/google-fonts": "^3.2.0",
     "dayjs": "^1.11.13",
     "nuxt": "^3.13.0",

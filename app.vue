@@ -1,7 +1,7 @@
 <template>
-  <div class="h-screen dark:text-gray-200 flex flex-col justify-center items-center bg-circuit">
+  <div class="h-screen p-4 dark:text-gray-200 flex flex-col justify-center items-center bg-circuit">
     <h1 class="text-center text-4xl font-bold my-2">ยินดีต้อนรับ</h1>
-    <NuxtImg src="/my_avatar_1.jpg" class="my-4" />
+    <img src="/my_avatar_1.jpg" class="my-4 h-48" />
     <div class="my-2 flex flex-col items-center justify-center">
       <div class="text-center text-xl font-bold my-1">chan1sook</div>
       <div class="text-center">ณัฐวัฒน์ เราเจริญศิลป์ (น้ำแข็ง)</div>
@@ -102,9 +102,23 @@ const darkMode = ref(false);
 
 useHead({
   title: "chan1sook.com - ยินดีต้อนรับ",
+  meta: [
+    {
+      name: 'description', content: 'เว็บไซต์ของ chan1sook'
+    }
+  ],
   bodyAttrs: {
     "class": () => darkMode.value ? "dark" : ""
   }
+})
+
+useSeoMeta({
+  title: 'chan1sook.com - ยินดีต้อนรับ',
+  ogTitle: 'chan1sook.com - ยินดีต้อนรับ',
+  description: 'เว็บไซต์ของ chan1sook',
+  ogDescription: 'เว็บไซต์ของ chan1sook',
+  ogImage: 'https://chan1sook.com/my_avatar_1.jpg',
+  twitterCard: 'summary_large_image',
 })
 
 const birthday = new Date("1995-07-24");

@@ -2,15 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  modules: [
-    "@nuxtjs/tailwindcss",
-    "@nuxt/image",
-    "nuxt-swiper",
-    "@nuxtjs/google-fonts",
-  ],
-  image: {
-    dir: "assets/",
-  },
+  modules: ["@nuxtjs/tailwindcss", "nuxt-swiper", "@nuxtjs/google-fonts"],
   googleFonts: {
     families: {
       Prompt: [400, 700],

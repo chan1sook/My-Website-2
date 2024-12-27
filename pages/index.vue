@@ -10,9 +10,9 @@
     <div class="my-4 w-full max-w-screen-sm">
       <Swiper :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperPagination]" :slides-per-view="1" :loop="true"
         :effect="'creative'" :autoplay="{
-        delay: 8000,
-        disableOnInteraction: true,
-      }" :creative-effect="{
+          delay: 8000,
+          disableOnInteraction: true,
+        }" :creative-effect="{
         prev: {
           shadow: false,
           translate: ['-20%', 0, -1],

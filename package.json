@@ -14,7 +14,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@nuxtjs/google-fonts": "^3.2.0",
     "dayjs": "^1.11.13",
-    "nuxt": "^3.13.0",
+    "nuxt": "^3.14.159",
     "nuxt-swiper": "^1.2.2",
     "vue": "latest"
   },
